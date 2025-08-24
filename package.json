@@ -1,0 +1,22 @@
+{
+  "name": "bisnisbot-termux",
+  "version": "5.0.0",
+  "description": "WhatsApp Business Bot with 200+ features and pairing code support",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": ["whatsapp", "bot", "business", "termux"],
+  "author": "BisnisBot Team",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "pino": "^8.17.2",
+    "chalk": "^4.1.2",
+    "axios": "^1.6.5",
+    "moment-timezone": "^0.5.44",
+    "node-cache": "^5.1.2"
+  }
+}
